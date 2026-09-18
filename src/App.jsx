@@ -80,12 +80,20 @@ export default function App() {
               اکشن
             </button>
             <a 
+              href="/filmland.apk" 
+              download="Filmland-Netflix.apk"
+              className="bg-[#E50914] hover:bg-red-700 text-white px-3 py-1 rounded text-xs flex items-center gap-1 font-bold shadow transition"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>دانلود فایل APK اندروید</span>
+            </a>
+            <a 
               href="/filmland-project.zip" 
               download="filmland-app.zip"
               className="bg-neutral-800 hover:bg-neutral-700 text-white px-3 py-1 rounded text-xs flex items-center gap-1 border border-neutral-700 transition"
             >
               <Download className="w-3.5 h-3.5" />
-              <span>دانلود فایل Zip</span>
+              <span>فایل Zip</span>
             </a>
           </nav>
         </div>
